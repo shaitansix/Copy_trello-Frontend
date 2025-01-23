@@ -1,0 +1,9 @@
+.labelicon-wrapper {
+    width: fit-content;
+}
+
+.labelicon-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

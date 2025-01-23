@@ -1,0 +1,15 @@
+.headermenuboards-wrapper {
+    padding: 8px;
+    padding-top: 16px;
+}
+
+.headermenuboards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headermenuboards-btn:hover {
+    background-color: var(--gray-dark);
+    cursor: pointer;
+}

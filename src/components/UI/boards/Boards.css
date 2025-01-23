@@ -1,0 +1,62 @@
+.boards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.boards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* Estilos para los cardboards */
+.boardcard {
+    padding: 8px;
+    width: calc(188px - 16px);
+    height: 94px;
+
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.boardcard:hover {
+    cursor: pointer;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.bg-img>:nth-child(1) {
+    position: absolute;
+    z-index: 1;
+
+    color: var(--blue-light);
+}
+
+.bg-img>:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-img:hover>:nth-child(2), 
+.bg-default:hover {
+    opacity: 0.7;
+}
+
+.bg-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
+    height: calc(94px + 16px);
+
+    background-color: var(--gray-dark);
+}
+
+.bg-default>:nth-child(1) {
+    color: var(--blue-light);
+}

@@ -1,0 +1,27 @@
+.aboutproject {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.aboutproject-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.aboutproject-title {
+    font-size: 60px;
+}
+
+.aboutproject-description {
+    font-size: 20px;
+}
+
+.aboutproject-right {
+    width: 1000px;
+    height: 400px;
+
+    overflow: hidden;
+}

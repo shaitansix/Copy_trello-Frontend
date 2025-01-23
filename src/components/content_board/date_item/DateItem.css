@@ -1,0 +1,31 @@
+.dateitem {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+
+    border-radius: 4px;
+}
+
+.dateitem-red {
+    background-color: var(--red-op);
+    color: var(--red-light);
+}
+
+.dateitem-green {
+    background-color: var(--green-op);
+    color: var(--green-light);
+}
+
+.dateitem-yellow {
+    background-color: var(--yellow-op);
+    color: var(--yellow-light);
+}
+
+.dateitem-btn-clock {
+    color: inherit;
+}
+
+.dateitem-btn-clock:hover {
+    background-color: transparent;
+}

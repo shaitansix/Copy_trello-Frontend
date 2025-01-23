@@ -1,0 +1,31 @@
+.statetask {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+
+    border-radius: 4px;
+}
+
+.statetask-red {
+    background-color: var(--red-op);
+    color: var(--red-light);
+}
+
+.statetask-green {
+    background-color: var(--green-op);
+    color: var(--green-light);
+}
+
+.statetask-yellow {
+    background-color: var(--yellow-op);
+    color: var(--yellow-light);
+}
+
+.statetask-btn-clock {
+    color: inherit;
+}
+
+.statetask-btn-clock:hover {
+    background-color: transparent;
+}

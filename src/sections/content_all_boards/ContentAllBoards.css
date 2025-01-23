@@ -1,0 +1,13 @@
+.contentallboards-container {
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentallboards-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 12px;
+}

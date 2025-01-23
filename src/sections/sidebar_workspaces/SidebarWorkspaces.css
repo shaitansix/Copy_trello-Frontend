@@ -1,0 +1,53 @@
+.sidebarworkspaces-wrapper {
+    min-width: 260px;
+    max-width: 260px;
+}
+
+.sidebarworkspaces-container {
+    position: fixed;
+    width: 260px;
+}
+
+.sidebarworkspaces-header {
+    padding: 4px;
+    padding-bottom: 12px;
+
+    border-bottom: solid 1px var(--blue-light);
+}
+
+.sidebarworkspaces-body {
+    padding: 4px 8px;
+    padding-top: 16px;
+
+    max-height: calc(100vh - 57px - 32px - 49px - 20px - 87px);
+    overflow-y: auto;
+}
+
+.sidebarworkspaces-footer {
+    padding: 4px;
+}
+
+/* Estilos de los navlinks del sidebar */
+.menubtn-link {
+    display: block;
+    padding: 4px 8px;
+
+    border-radius: 4px;
+    background-color: var(--blue-light);
+}
+
+.menubtn-link:hover {
+    cursor: pointer;
+}
+
+.menubtn-link-active {
+    background-color: var(--blue-dark);
+}
+
+.menubtn-link-deactive {
+    background-color: transparent;
+}
+
+.menubtn-link-deactive:hover {
+    background-color: var(--black-light);
+}

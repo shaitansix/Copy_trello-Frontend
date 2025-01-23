@@ -1,0 +1,5 @@
+.menuboards-body {
+    max-height: calc(100vh - 57px - 76px - 48px - 95px);
+
+    overflow-y: auto;
+}

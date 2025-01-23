@@ -1,0 +1,21 @@
+.inputdate-infodate {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+
+    border-radius: 4px;
+    background-color: var(--black-dark);
+}
+
+.inputdate-field {
+    width: 68px;
+
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--blue-light);
+
+    cursor: pointer;
+}

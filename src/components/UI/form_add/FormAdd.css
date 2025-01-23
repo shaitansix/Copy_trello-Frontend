@@ -1,0 +1,48 @@
+.formadd-wrapper {
+    background-color: transparent;
+}
+
+.formadd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.formadd-input {
+    padding: 8px 16px;
+    width: 100%;
+
+    outline: none;
+    border-radius: 4px;
+    border: solid 1px var(--blue-light);
+    background-color: transparent;
+    color: var(--blue-light);
+    box-sizing: border-box;
+}
+
+.formadd-input::placeholder {
+    color: var(--blue-light);
+}
+
+.formadd-container>:last-child {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.formadd-btn-add {
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: var(--blue);
+    color: var(--blue-light);
+    font-weight: 700;
+}
+
+.formadd-btn-add:hover {
+    background-color: var(--blue-light);
+    color: var(--blue-dark);
+    cursor: pointer;
+}

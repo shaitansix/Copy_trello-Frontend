@@ -1,0 +1,44 @@
+:root {
+    --black-op: hsla(0, 0%, 0%, 0.6);
+    --black-dark: hsl(250, 6%, 4%);
+    --black-light: hsl(250, 6%, 24%);
+    --gray-dark: hsl(250, 6%, 34%);
+    --gray-light: hsl(250, 6%, 50%);
+
+    --blue-dark: hsl(250, 30%, 25%);
+    --blue: hsl(250, 62%, 57%);
+    --blue-light: hsl(250, 96%, 90%);
+
+    --red-op: hsla(0, 80%, 60%, 0.3);
+    --red-light: hsl(0, 73%, 84%);
+
+    --green-op: hsla(150, 80%, 60%, 0.3);
+    --green-light: hsl(150, 73%, 84%);
+
+    --yellow-op: hsla(50, 80%, 60%, 0.3);
+    --yellow-light: hsl(50, 73%, 84%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray-dark) var(--black-light);
+    overflow: hidden;
+}
+
+html {
+    background-color: var(--black-dark);
+    color: var(--blue-light);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+ul {
+    list-style-type: none;
+}

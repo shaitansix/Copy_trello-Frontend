@@ -1,0 +1,20 @@
+.contentboard-wrapper {
+    background-color: var(--gray-light);
+}
+
+.contentboard-container {
+    width: calc(100vw - 260px);
+    height: calc(100vh - 57px);
+}
+
+.contentboard-header {
+    padding: 12px 24px;
+    background-color: var(--gray-dark);
+}
+
+.contentboard-body {
+    max-width: calc(100vw - 260px);
+    height: calc(100vh - 57px - 52px);
+
+    overflow-x: auto;
+}

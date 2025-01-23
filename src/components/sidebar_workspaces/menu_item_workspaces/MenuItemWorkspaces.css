@@ -1,0 +1,84 @@
+.menuitemworkspaces {
+    padding: 4px 0;
+
+    overflow: hidden;
+}
+
+.menuitemworkspaces-trigger {
+    padding: 4px 8px;
+    width: 100%;
+
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--blue-light);
+}
+
+.menuitemworkspaces-trigger:hover {
+    cursor: pointer;
+}
+
+.menuitemworkspaces-trigger[data-state = 'open']>:first-child> .menuitemworkspaces-trigger-icon {
+	transform: rotate(180deg);
+}
+
+.menuitemworkspaces-trigger-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuitemworkspaces-trigger-icon {
+    transition: transform 300ms ease-in-out;
+}
+
+.menuitemworkspaces-content {
+    padding-top: 4px;
+    padding-left: 36px;
+}
+
+.menuitemworkspaces-content[data-state = 'open'] {
+	animation: slideDown 300ms ease-in-out;
+}
+
+.menuitemworkspaces-content[data-state = 'closed'] {
+	animation: slideUp 300ms ease-in-out;
+}
+
+/* Estilos para los botones de eliminar */
+.menubtn-btn {
+    display: block;
+    margin-top: 4px;
+    padding: 4px 8px;
+    width: 100%;
+
+    border: none;
+    background-color: transparent;
+    color: var(--blue-light);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.menubtn-btn:hover {
+    background-color: var(--black-light);
+    color: var(--red-light);
+    cursor: pointer;
+}
+
+@keyframes slideDown {
+	from {
+		height: 0;
+	}
+	to {
+		height: var(--radix-accordion-content-height);
+	}
+}
+
+@keyframes slideUp {
+	from {
+		height: var(--radix-accordion-content-height);
+	}
+	to {
+		height: 0;
+	}
+}

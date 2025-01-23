@@ -1,0 +1,139 @@
+.modaltask-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--black-op);
+}
+
+.modaltask-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    width: 400px;
+
+    border-radius: 8px;
+    background-color: var(--black-light);
+}
+
+.modaltask-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modaltask-header>:first-child {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 90%;
+
+    box-sizing: border-box;
+}
+
+.modaltask-input {
+    width: 100%;
+    padding: 0;
+
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--blue-light);
+
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.modaltask-input:focus {
+    padding: 4px 8px;
+
+    border: solid 1px var(--blue-light);
+    cursor: text;
+}
+
+.modaltask-btn-close:hover {
+    background-color: var(--gray-dark);
+}
+
+.modaltask-section-date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modaltask-exp-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modaltask-section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modaltask-textarea {
+    padding: 8px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--black-dark);
+    color: inherit;
+    box-sizing: border-box;
+}
+
+.modaltask-textarea::placeholder {
+    color: var(--gray-dark);
+}
+
+.modaltask-section-btns {
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+
+.modaltask-btn {
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.modaltask-btn-save {
+    background-color: var(--blue);
+    color: var(--blue-light);
+}
+
+.modaltask-btn-delete {
+    background-color: var(--gray-light);
+    color: var(--blue-dark);
+}
+
+.modaltask-btn:hover {
+    cursor: pointer;
+}
+
+.modaltask-btn-save:hover {
+    background-color: var(--blue-light);
+    color: var(--blue-dark);
+}
+
+.modaltask-btn-delete:hover {
+    background-color: var(--red-op);
+    color: var(--red-light);
+}

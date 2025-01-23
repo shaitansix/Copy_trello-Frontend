@@ -1,0 +1,29 @@
+.notfound-wrapper {
+    padding: 32px;
+}
+
+.notfound-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 57px - 64px);
+}
+
+.notfound-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notfound-text>* {
+    font-weight: lighter;
+}
+
+.notfound-text>:first-child {
+    font-size: 120px;
+}
+
+.notfound-text>:last-child {
+    font-size: 32px;
+    font-weight: normal;
+}

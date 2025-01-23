@@ -1,0 +1,15 @@
+.boardlayout-wrapper {
+    width: 100vw;
+    height: calc(100vh - 57px);
+    max-height: calc(100vh - 57px);
+
+    background-color: var(--black-dark);
+}
+
+.boardlayout-container {
+    display: flex;
+}
+
+.boardlayout-content {
+    flex: 1 1 auto;
+}

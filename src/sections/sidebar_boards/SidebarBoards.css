@@ -1,0 +1,19 @@
+.sidebarboards-wrapper {
+    height: fit-content;
+
+    background-color: var(--black-light);
+}
+
+.sidebarboards-container {
+    min-width: 260px;
+    max-width: 260px;
+    height: calc(100vh - 57px);
+}
+
+.sidebarboards-footer {
+    padding: 8px;
+}
+
+.sidebarboards-btn-close:hover {
+    background-color: var(--gray-dark);
+}

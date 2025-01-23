@@ -1,0 +1,28 @@
+.task-wrapper {
+    padding: 8px;
+
+    border-radius: 4px;
+    background-color: var(--black-light);
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-btn-edit:hover {
+    background-color: var(--gray-dark);
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

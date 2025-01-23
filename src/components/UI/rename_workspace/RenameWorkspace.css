@@ -1,0 +1,47 @@
+.renameworkspace-wrapper {
+    padding: 8px 16px;
+
+    border-bottom: solid 1px var(--blue-light);
+}
+
+.renameworkspace-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.renameworkspace-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.renameworkspace-input {
+    padding: 4px 8px;
+    width: 100%;
+    max-width: 200px;
+
+    outline: none;
+    border-radius: 8px;
+    border: solid 1px var(--blue-light);
+    background-color: transparent;
+    color: var(--blue-light);
+    font-family: inherit;
+
+    box-sizing: border-box;
+}
+
+.renameworkspace-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.renameworkspace-btn-workspace:hover {
+    background-color: var(--black-light);
+}
+
+.renameworkspace-btn-board:hover {
+    background-color: var(--gray-dark);
+}

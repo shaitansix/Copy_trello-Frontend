@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subtitle-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.paragraph-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.small_paragraph-text {
+  font-size: 12px;
+  font-weight: 400;
+}

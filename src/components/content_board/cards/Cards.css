@@ -1,0 +1,25 @@
+.cards-wrapper {
+    width: fit-content;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.cards-section-add {
+    padding: 8px;
+    min-width: 216px;
+    max-width: 216px;
+    height: fit-content;
+
+    border-radius: 4px;
+    background-color: var(--black-dark);
+}
+
+.cards-btn-close:hover {
+    background-color: var(--black-light);
+    cursor: pointer;
+}

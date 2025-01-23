@@ -1,0 +1,30 @@
+.modboard {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.modboard-input {
+    padding: 4px 8px;
+
+    outline: none;
+    border-radius: 8px;
+    border: solid 1px var(--blue-light);
+    background-color: transparent;
+    color: var(--blue-light);
+    font-family: inherit;
+}
+
+.modboard-iconbtns {
+    display: flex;
+    align-items: center;
+}
+
+.modboard-iconbtn:hover {
+    background-color: var(--black-light);
+}
+
+.modboard-iconbtn-delete:hover {
+    background-color: var(--black-light);
+    color: var(--red-light);
+}

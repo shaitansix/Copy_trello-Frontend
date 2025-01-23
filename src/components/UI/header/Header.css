@@ -1,0 +1,22 @@
+.header-wrapper {
+    padding: 8px 16px;
+
+    border-bottom: solid 1px var(--blue-light);
+    background-color: var(--black-dark);
+}
+
+.header-container {
+    height: 40px;
+}
+
+.header-link {
+    display: inline-block;
+    padding: 4px 8px;
+
+    border-radius: 4px;
+}
+
+.header-link:hover {
+    background-color: var(--black-light);
+    cursor: pointer;
+}

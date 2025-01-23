@@ -1,0 +1,25 @@
+.modalcustom-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--black-op);
+}
+
+.modalcustom-container {
+    padding: 16px;
+    width: 220px;
+
+    border-radius: 8px;
+    background-color: var(--black-light);
+}
+
+.modalcustom-btn-close:hover {
+    background-color: var(--gray-dark);
+}

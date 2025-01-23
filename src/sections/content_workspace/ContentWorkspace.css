@@ -1,0 +1,9 @@
+.contentworkspace-wrapper {
+    padding-bottom: 32px;
+}
+
+.contentworkspace-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
