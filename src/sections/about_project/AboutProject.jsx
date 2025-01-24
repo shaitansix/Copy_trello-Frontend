@@ -11,9 +11,9 @@ const AboutProject = () => {
             </article>
 
             <article className = 'aboutproject-right'>
-                <img src = '/img-space.jpg' 
-                     alt = 'hero.jpg' 
-                     style = {{ width: '100%', height: '100%' }} />
+                <img src = '/img-mi_trello.svg' 
+                     alt = 'img-mi_trello.svg' 
+                     style = {{ height: '100%' }} />
             </article>
         </div>
     )

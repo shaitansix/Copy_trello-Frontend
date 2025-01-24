@@ -2,13 +2,14 @@
     padding: 16px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: space-between;
 }
 
 .aboutproject-left {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 400px;
 }
 
 .aboutproject-title {
@@ -20,8 +21,9 @@
 }
 
 .aboutproject-right {
-    width: 1000px;
-    height: 400px;
+    width: fit-content;
+    height: 360px;
 
+    border-radius: 8px;
     overflow: hidden;
 }
