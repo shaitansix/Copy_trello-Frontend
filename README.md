@@ -6,15 +6,14 @@ Sistema de gestión de tareas basado en metodología Kanban, diseñado bajo arqu
 
 ## Proyecto Completo
 
-Este repositorio corresponde únicamente al `frontend` del sistema Kanban.
+Este repositorio corresponde únicamente al `frontend` del sistema.
 
 La aplicación consume una API REST desarrollada en Express para la gestión de espacios de trabajo, tableros, tarjetas y tareas.
 
 Video demostración: [Mi Trello - Video](https://www.youtube.com/watch?v=it5sgFNkJ3w)  
 Repositorio Backend: [Mi Trello - Backend](https://github.com/shaitansix/Copy_trello-Backend)  
 Repositorio Frontend: [Mi Trello - Frontend](https://github.com/shaitansix/Copy_trello-Frontend)  
-Demo en producción (si existe): [Mi Trello](https://copy-trello-frontend.vercel.app)  
-Este repositorio corresponde únicamente al frontend del sistema.
+Demo en producción: [Mi Trello](https://copy-trello-frontend.vercel.app)
 
 ---
 
